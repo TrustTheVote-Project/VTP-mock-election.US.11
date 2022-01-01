@@ -1,28 +1,18 @@
 {
     "CVR": {
-        "cast_branch": "CVRs/0001/60fa0b7248",
+        "cast_branch": "CVRs/0004/291d57f8c5",
         "choices": [
-            {
-                "name": "Anthony Alpha",
-                "party": "Circle Party"
-            },
-            {
-                "name": "Gloria Gamma",
-                "party": "Square Party"
-            },
-            {
-                "name": "David Delta",
-                "party": "Triangle Party"
-            }
+            "yes",
+            "no"
         ],
-        "ggo": "GGOs/states/Massachusetts",
-        "name": "US senate",
+        "description": "Should the Town of Concord start the annual Town Meeting at 6:30PM instead of 7:00PM?\n",
+        "ggo": "GGOs/states/Massachusetts/GGOs/towns/Concord",
+        "max": 1,
+        "name": "Question 1 - should the starting time of the annual town meeting be moved to 6:30PM?",
         "selection": [
-            "1: Gloria Gamma",
-            "0: Anthony Alpha",
-            "2: David Delta"
+            "0: yes"
         ],
-        "tally": "rcv",
-        "uid": "0001"
+        "tally": "plurality",
+        "uid": "0004"
     }
 }
