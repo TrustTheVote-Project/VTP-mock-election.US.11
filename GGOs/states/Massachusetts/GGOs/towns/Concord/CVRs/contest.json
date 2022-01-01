@@ -1,42 +1,23 @@
 {
     "CVR": {
-        "cast_branch": "CVRs/0000/c18a356ca1",
+        "cast_branch": "CVRs/0002/4da3cc9d79",
         "choices": [
             {
-                "name": "Circle Party Ticket",
-                "ticket_names": [
-                    "Rey Skywalker",
-                    "Obi-Wan Kenobi"
-                ]
+                "name": "Spencer Cogswell",
+                "party": "Circle Party"
             },
             {
-                "name": "Square Party Ticket",
-                "ticket_names": [
-                    "Atticus Finch",
-                    "Hermione  Granger"
-                ]
-            },
-            {
-                "name": "Triangle Party Ticket",
-                "ticket_names": [
-                    "Evelyn Quan Wang",
-                    "Waymond Wang"
-                ]
+                "name": "Cosmo Spacely",
+                "party": "Triangle Party"
             }
         ],
-        "contest_type": "ticket",
         "ggo": "GGOs/states/Massachusetts",
-        "name": "US president",
+        "max": 1,
+        "name": "governor",
         "selection": [
-            "2: Triangle Party Ticket",
-            "0: Circle Party Ticket",
-            "1: Square Party Ticket"
+            "1: Cosmo Spacely"
         ],
-        "tally": "rcv",
-        "ticket_offices": [
-            "President",
-            "Vice President"
-        ],
-        "uid": "0000"
+        "tally": "plurality",
+        "uid": "0002"
     }
 }
