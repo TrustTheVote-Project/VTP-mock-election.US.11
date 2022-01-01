@@ -1,18 +1,18 @@
 {
     "CVR": {
-        "cast_branch": "CVRs/0004/ae9188f620",
+        "cast_branch": "CVRs/0003/c7a463a053",
         "choices": [
-            "yes",
-            "no"
+            "Jean-Luc Picard",
+            "Katniss Everdeen",
+            "James T. Kirk"
         ],
-        "description": "Should the Town of Concord start the annual Town Meeting at 6:30PM instead of 7:00PM?\n",
-        "ggo": "GGOs/states/Massachusetts/GGOs/towns/Concord",
+        "ggo": "GGOs/states/Massachusetts/GGOs/counties/Middlesex",
         "max": 1,
-        "name": "Question 1 - should the starting time of the annual town meeting be moved to 6:30PM?",
+        "name": "County Clerk",
         "selection": [
-            "0: yes"
+            "1: Katniss Everdeen"
         ],
         "tally": "plurality",
-        "uid": "0004"
+        "uid": "0003"
     }
 }
