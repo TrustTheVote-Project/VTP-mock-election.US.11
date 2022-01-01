@@ -1,6 +1,6 @@
 {
     "CVR": {
-        "cast_branch": "CVRs/0002/b4a4bd32b1",
+        "cast_branch": "CVRs/0002/71c8a39f87",
         "choices": [
             {
                 "name": "Spencer Cogswell",
@@ -15,7 +15,7 @@
         "max": 1,
         "name": "governor",
         "selection": [
-            "0: Spencer Cogswell"
+            "1: Cosmo Spacely"
         ],
         "tally": "plurality",
         "uid": "0002"
