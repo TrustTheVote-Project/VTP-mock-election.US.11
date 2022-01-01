@@ -1,42 +1,18 @@
 {
     "CVR": {
-        "cast_branch": "CVRs/0000/41cf4e53be",
+        "cast_branch": "CVRs/0004/35db8e155a",
         "choices": [
-            {
-                "name": "Circle Party Ticket",
-                "ticket_names": [
-                    "Rey Skywalker",
-                    "Obi-Wan Kenobi"
-                ]
-            },
-            {
-                "name": "Square Party Ticket",
-                "ticket_names": [
-                    "Atticus Finch",
-                    "Hermione  Granger"
-                ]
-            },
-            {
-                "name": "Triangle Party Ticket",
-                "ticket_names": [
-                    "Evelyn Quan Wang",
-                    "Waymond Wang"
-                ]
-            }
+            "yes",
+            "no"
         ],
-        "contest_type": "ticket",
-        "ggo": "GGOs/states/Massachusetts",
-        "name": "US president",
+        "description": "Should the Town of Concord start the annual Town Meeting at 6:30PM instead of 7:00PM?\n",
+        "ggo": "GGOs/states/Massachusetts/GGOs/towns/Concord",
+        "max": 1,
+        "name": "Question 1 - should the starting time of the annual town meeting be moved to 6:30PM?",
         "selection": [
-            "1: Square Party Ticket",
-            "2: Triangle Party Ticket",
-            "0: Circle Party Ticket"
+            "0: yes"
         ],
-        "tally": "rcv",
-        "ticket_offices": [
-            "President",
-            "Vice President"
-        ],
-        "uid": "0000"
+        "tally": "plurality",
+        "uid": "0004"
     }
 }
