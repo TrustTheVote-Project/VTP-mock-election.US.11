@@ -1,18 +1,28 @@
 {
     "CVR": {
-        "cast_branch": "CVRs/0003/2fe662c24e",
+        "cast_branch": "CVRs/0001/fff4ee8d6e",
         "choices": [
-            "Jean-Luc Picard",
-            "Katniss Everdeen",
-            "James T. Kirk"
+            {
+                "name": "Anthony Alpha",
+                "party": "Circle Party"
+            },
+            {
+                "name": "Gloria Gamma",
+                "party": "Square Party"
+            },
+            {
+                "name": "David Delta",
+                "party": "Triangle Party"
+            }
         ],
-        "ggo": "GGOs/states/Massachusetts/GGOs/counties/Middlesex",
-        "max": 1,
-        "name": "County Clerk",
+        "ggo": "GGOs/states/Massachusetts",
+        "name": "US senate",
         "selection": [
-            "2: James T. Kirk"
+            "0: Anthony Alpha",
+            "2: David Delta",
+            "1: Gloria Gamma"
         ],
-        "tally": "plurality",
-        "uid": "0003"
+        "tally": "rcv",
+        "uid": "0001"
     }
 }
