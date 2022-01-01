@@ -1,0 +1,28 @@
+{
+    "CVR": {
+        "cast_branch": "CVRs/0001/3d2fa8590c",
+        "choices": [
+            {
+                "name": "Anthony Alpha",
+                "party": "Circle Party"
+            },
+            {
+                "name": "Gloria Gamma",
+                "party": "Square Party"
+            },
+            {
+                "name": "David Delta",
+                "party": "Triangle Party"
+            }
+        ],
+        "ggo": "GGOs/states/Massachusetts",
+        "name": "US senate",
+        "selection": [
+            "1: Gloria Gamma",
+            "0: Anthony Alpha",
+            "2: David Delta"
+        ],
+        "tally": "rcv",
+        "uid": "0001"
+    }
+}
