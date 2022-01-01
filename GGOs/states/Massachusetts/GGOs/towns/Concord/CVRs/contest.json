@@ -1,6 +1,6 @@
 {
     "CVR": {
-        "cast_branch": "CVRs/0001/0fcd4a8207",
+        "cast_branch": "CVRs/0001/357922734b",
         "choices": [
             {
                 "name": "Anthony Alpha",
@@ -19,8 +19,8 @@
         "name": "US senate",
         "selection": [
             "1: Gloria Gamma",
-            "2: David Delta",
-            "0: Anthony Alpha"
+            "0: Anthony Alpha",
+            "2: David Delta"
         ],
         "tally": "rcv",
         "uid": "0001"
