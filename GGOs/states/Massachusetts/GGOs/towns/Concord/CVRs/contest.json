@@ -1,28 +1,23 @@
 {
     "CVR": {
-        "cast_branch": "CVRs/0001/85eb5b0554",
+        "cast_branch": "CVRs/0002/2199fbe3a2",
         "choices": [
             {
-                "name": "Anthony Alpha",
+                "name": "Spencer Cogswell",
                 "party": "Circle Party"
             },
             {
-                "name": "Gloria Gamma",
-                "party": "Square Party"
-            },
-            {
-                "name": "David Delta",
+                "name": "Cosmo Spacely",
                 "party": "Triangle Party"
             }
         ],
         "ggo": "GGOs/states/Massachusetts",
-        "name": "US senate",
+        "max": 1,
+        "name": "governor",
         "selection": [
-            "0: Anthony Alpha",
-            "1: Gloria Gamma",
-            "2: David Delta"
+            "1: Cosmo Spacely"
         ],
-        "tally": "rcv",
-        "uid": "0001"
+        "tally": "plurality",
+        "uid": "0002"
     }
 }
