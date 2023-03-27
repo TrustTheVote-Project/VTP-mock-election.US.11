@@ -1,0 +1,45 @@
+---
+contests:
+- US president:
+    tally: rcv
+    choices:
+    - name: Circle Party Ticket
+      ticket:
+      - name: Rey Skywalker
+        office: President
+      - name: Obi-Wan Kenobi
+        office: Vice President
+    - name: Square Party Ticket
+      ticket:
+      - name: Atticus Finch
+        office: President
+      - name: Forrest Gump
+        office: Vice President
+    - name: Triangle Party Ticket
+      ticket:
+      - name: Evelyn Quan Wang
+        office: President
+      - name: Waymond Wang
+        office: Vice President
+- US senate:
+    tally: rcv
+    choices:
+    - name: Fred Flintstone
+      party: Circle Party
+    - name: Shrek
+      party: Square Party
+    - name: Mirabel Madrigal
+      party: Triangle Party
+- governor:
+    tally: plurality
+    choices:
+    - name: Hermione Granger
+      party: Circle Party
+    - name: Gandalf
+      party: Triangle Party
+GGOs:
+  counties:
+  - Middlesex
+  towns:
+  - Concord
+submodules: []

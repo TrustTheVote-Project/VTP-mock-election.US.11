@@ -1,0 +1,9 @@
+---
+contests:
+- County Clerk:
+    tally: plurality
+    choices:
+    - Jean-Luc Picard
+    - Huckleberry Finn
+    - James Kirk
+submodules: []

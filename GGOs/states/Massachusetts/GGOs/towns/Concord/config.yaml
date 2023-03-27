@@ -1,0 +1,23 @@
+---
+contests:
+- mayor:
+    tally: rcv
+    choices:
+    - name: Twenty Seven
+      party: Circle Party
+    - name: Thirty Eight
+      party: Square Party
+    - name: Forty Nine
+      party: Triangle Party
+- Question 1 - should the starting time of town meeting be moved to 6:30PM?:
+    tally: plurality
+    choices:
+    - yes
+    - no
+    description: |
+      Should the Town of Concord start the annual Town Meeting at 6:30PM instead of 7:00PM?
+voting centers:
+- Concord Carlisle High School:
+    street: 500 Walden St, Concord, MA 01742
+    id: 000001
+submodules: []
