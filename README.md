@@ -8,7 +8,9 @@ This repository represents the current thoughts on how to configure an election 
 
 Make sure there is a compatible python environment - any reasonable python framework can be used.  See [VoteTrackerPlus/src/vtp/README.md](https://github.com/TrustTheVote-Project/VoteTrackerPlus/tree/master/src/vtp) for creating either a conda or poetry environment.
 
-All the necessary git repos can be cloned via the following playbook:
+All the necessary git repos can be cloned via the following playbook which leverages poetry to manage the python environment.   See [VoteTrackerPlus/_tools/build/README.md](https://github.com/TrustTheVote-Project/VoteTrackerPlus/tree/main/_tools/build)
+for more information on installing poetry.
+
 
 ```bash
 # Clone the VTP-dev-env repo, not this repo (https example)
@@ -18,9 +20,6 @@ $ git clone https://github.com/TrustTheVote-Project/VTP-dev-env.git
 # as git submodules of the VTP-dev-env repo.
 $ cd VTP-dev-env
 $ make main
-
-# If poetry is not installed, install it.  See VTP-dev-env/VoteTrackerPlus/_tools/build/README.md
-# for more information on installing poetry.
 
 # Using poetry perform a local install of VoteTracker+
 $ cd VoteTrackerPlus
