@@ -4,23 +4,26 @@ contests:
     tally: rcv
     choices:
     - name: Circle Party Ticket
-      ticket:
-      - name: Rey Skywalker
-        office: President
-      - name: Obi-Wan Kenobi
-        office: Vice President
+      ticket_names:
+        - Rey Skywalker
+        - Obi-Wan Kenobi
+      ticket_offices:
+        - President
+        - Vice President
     - name: Square Party Ticket
-      ticket:
-      - name: Atticus Finch
-        office: President
-      - name: Forrest Gump
-        office: Vice President
+      ticket_names:
+        - Atticus Finch
+        - Forrest Gump
+      ticket_offices:
+        - President
+        - Vice President
     - name: Triangle Party Ticket
-      ticket:
-      - name: Evelyn Quan Wang
-        office: President
-      - name: Waymond Wang
-        office: Vice President
+      ticket_names:
+        - Evelyn Quan Wang
+        - Waymond Wang
+      ticket_offices:
+        - President
+        - Vice President
 - US senate:
     tally: rcv
     choices:
@@ -42,4 +45,6 @@ GGOs:
   - Middlesex
   towns:
   - Concord
+  CDPs:
+  - West Concord
 submodules: []

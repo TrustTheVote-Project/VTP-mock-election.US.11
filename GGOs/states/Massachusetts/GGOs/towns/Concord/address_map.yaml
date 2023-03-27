@@ -10,4 +10,6 @@ unique-ballots:
   - .* Road
   ggos:
   - GGOs/states/Massachusetts
+  - GGOs/states/Massachusetts/GGOs/counties/Middlesex
+  - GGOs/states/Massachusetts/GGOs/CDPs/West Concord
   - GGOs/states/Massachusetts/GGOs/towns/Concord

@@ -1,0 +1,8 @@
+---
+contests:
+- West Concord Librarian:
+    tally: plurality
+    choices:
+    - Henry David Thoreau
+    - Louisa May Alcott
+submodules: []
