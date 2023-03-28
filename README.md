@@ -29,3 +29,5 @@ $ make poetry-build
 $ cd ../VTP-mock-election.US.11
 $ setup-vtp-demo
 ```
+
+(the [VTP-dev-env](https://github.com/TrustTheVote-Project/VTP-dev-env) repo holds the VTP development environment)
