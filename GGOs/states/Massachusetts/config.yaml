@@ -2,43 +2,38 @@
 contests:
 - US president:
     tally: rcv
+    contest_type: ticket
+    ticket_offices:
+      - President
+      - Vice President
     choices:
     - name: Circle Party Ticket
       ticket_names:
         - Rey Skywalker
         - Obi-Wan Kenobi
-      ticket_offices:
-        - President
-        - Vice President
     - name: Square Party Ticket
       ticket_names:
         - Atticus Finch
-        - Forrest Gump
-      ticket_offices:
-        - President
-        - Vice President
+        - Hermione  Granger
     - name: Triangle Party Ticket
       ticket_names:
         - Evelyn Quan Wang
         - Waymond Wang
-      ticket_offices:
-        - President
-        - Vice President
 - US senate:
     tally: rcv
     choices:
-    - name: Fred Flintstone
+    - name: Anthony Alpha
       party: Circle Party
-    - name: Shrek
+    - name: Gloria Gamma
       party: Square Party
-    - name: Mirabel Madrigal
+    - name: David Delta
       party: Triangle Party
 - governor:
     tally: plurality
     choices:
-    - name: Hermione Granger
+    - name: Spencer Cogswell
       party: Circle Party
-    - name: Gandalf
+    - name: Cosmo Spacely
       party: Triangle Party
 GGOs:
   counties:
