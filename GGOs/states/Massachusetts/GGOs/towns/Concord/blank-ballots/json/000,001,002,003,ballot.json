@@ -17,21 +17,13 @@
                             "ticket_names": [
                                 "Rey Skywalker",
                                 "Obi-Wan Kenobi"
-                            ],
-                            "ticket_offices": [
-                                "President",
-                                "Vice President"
                             ]
                         },
                         {
                             "name": "Square Party Ticket",
                             "ticket_names": [
                                 "Atticus Finch",
-                                "Forrest Gump"
-                            ],
-                            "ticket_offices": [
-                                "President",
-                                "Vice President"
+                                "Hermione  Granger"
                             ]
                         },
                         {
@@ -39,14 +31,15 @@
                             "ticket_names": [
                                 "Evelyn Quan Wang",
                                 "Waymond Wang"
-                            ],
-                            "ticket_offices": [
-                                "President",
-                                "Vice President"
                             ]
                         }
                     ],
+                    "contest_type": "ticket",
                     "tally": "rcv",
+                    "ticket_offices": [
+                        "President",
+                        "Vice President"
+                    ],
                     "uid": "0000"
                 }
             },
@@ -54,15 +47,15 @@
                 "US senate": {
                     "choices": [
                         {
-                            "name": "Fred Flintstone",
+                            "name": "Anthony Alpha",
                             "party": "Circle Party"
                         },
                         {
-                            "name": "Shrek",
+                            "name": "Gloria Gamma",
                             "party": "Square Party"
                         },
                         {
-                            "name": "Mirabel Madrigal",
+                            "name": "David Delta",
                             "party": "Triangle Party"
                         }
                     ],
@@ -74,11 +67,11 @@
                 "governor": {
                     "choices": [
                         {
-                            "name": "Hermione Granger",
+                            "name": "Spencer Cogswell",
                             "party": "Circle Party"
                         },
                         {
-                            "name": "Gandalf",
+                            "name": "Cosmo Spacely",
                             "party": "Triangle Party"
                         }
                     ],
@@ -92,8 +85,8 @@
                 "County Clerk": {
                     "choices": [
                         "Jean-Luc Picard",
-                        "Huckleberry Finn",
-                        "James Kirk"
+                        "Katniss Everdeen",
+                        "James T. Kirk"
                     ],
                     "tally": "plurality",
                     "uid": "0003"
@@ -102,10 +95,10 @@
         ],
         "GGOs/states/Massachusetts/GGOs/towns/Concord": [
             {
-                "Question 1 - should the starting time of town meeting be moved to 6:30PM?": {
+                "Question 1 - should the starting time of the annual town meeting be moved to 6:30PM?": {
                     "choices": [
-                        true,
-                        false
+                        "yes",
+                        "no"
                     ],
                     "description": "Should the Town of Concord start the annual Town Meeting at 6:30PM instead of 7:00PM?\n",
                     "tally": "plurality",
